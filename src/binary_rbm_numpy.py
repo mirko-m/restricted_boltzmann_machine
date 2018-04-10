@@ -86,7 +86,7 @@ class RestrictedBoltzmannMachine:
         Note
         ----
         when a single vector h is passed it is important that the shape is
-        (1, n_h).
+        (1, n_v).
 
         '''
         dim = h.shape[0]
